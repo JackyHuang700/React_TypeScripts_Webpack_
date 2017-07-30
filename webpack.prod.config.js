@@ -6,7 +6,7 @@ var path = require("path");
 module.exports = {
 	devtool: 'source-map',
 	entry: [
-		'./index.tsx'
+		'./boot.tsx'
 	],
 	output: {
 		filename: '[name].[chunkhash:8].js',

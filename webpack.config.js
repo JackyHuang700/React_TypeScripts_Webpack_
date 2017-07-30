@@ -6,7 +6,7 @@ module.exports = {
 	devtool: 'cheap-module-source-map',
 	entry: [
 		'react-hot-loader/patch',
-		'./index.tsx'
+		'./boot.tsx'
 	],
 	output: {
 		filename: 'bundle.js',
